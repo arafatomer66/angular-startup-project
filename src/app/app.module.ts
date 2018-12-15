@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppMaterialModule } from './modules/app-material.module';
-import swal from 'sweetalert' ;
+import swal from 'sweetalert';
+import { AuthComponent } from './auth/auth/auth.component';
+import { ComponentsComponent } from './components/components/components.component';
+import { LayoutsComponent } from './layouts/layouts/layouts.component' ;
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuthComponent,
+    ComponentsComponent,
+    LayoutsComponent
   ],
   imports: [
     BrowserModule,
